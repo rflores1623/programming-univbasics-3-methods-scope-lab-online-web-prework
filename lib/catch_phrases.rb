@@ -1,3 +1,5 @@
+$character = "catch_phrases"
+
 def mario
   phrase = 'It\'s-a me, Mario!'
   puts phrase
@@ -12,14 +14,4 @@ def link
 	puts 'It\'s Dangerous To Go Alone! Take This.'
 end
 
-def any_phrase(phrase) do
-	if (!mario) do
-		phrase = "Do A Barrel Roll!"
-		puts "#{phrase}"
-	end
-	else
-		puts mario
-	end
-end
-
-any_phrase(phrase)
+def any_phrase(phrase)
