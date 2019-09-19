@@ -17,4 +17,4 @@ def any_phrase(phrase) do
 	puts phrase
 end
 
-any_phrase(phrase)
+any_phrase
